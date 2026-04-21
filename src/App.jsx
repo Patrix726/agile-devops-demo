@@ -187,9 +187,7 @@ export default function App() {
 							This single-page demo shows a modern flow for{" "}
 							<span style={styles.accent}>CI</span>,{" "}
 							<span style={styles.accent}>CD</span>,
-							observability, and rapid feedback. It is styled with
-							the specified black, jet black, white smoke, and
-							molten orange palette.
+							observability, and rapid feedback.
 						</p>
 						<div style={styles.chips}>
 							<div style={styles.chip}>Git-based workflow</div>
