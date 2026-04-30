@@ -42,7 +42,9 @@ export default function App() {
 		return {
 			page: {
 				minHeight: "100vh",
-				background: `radial-gradient(circle at top, ${darkMode ? "#40606f" : "#fedbcb"} 0%, ${bg} 42%)`,
+				background: `radial-gradient(circle at top, ${
+					darkMode ? "#40606f" : "#fedbcb"
+				} 0%, ${bg} 42%)`,
 				color: text,
 				fontFamily:
 					'Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
@@ -181,7 +183,7 @@ export default function App() {
 					<section style={styles.panel}>
 						<h1 style={styles.headline}>
 							Ship faster with a{" "}
-							<span style={styles.accent}>DevOps</span> pipeline.
+							<span style={styles.accent}>CI/CD</span> pipeline.
 						</h1>
 						<p style={styles.subtitle}>
 							This single-page demo shows a modern flow for{" "}
